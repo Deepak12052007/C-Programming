@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int x,y,z;
+    printf("\nEnter the amount spent in wed,thru:");
+    scanf("%d %d",&x,&y);
+    z=x+y;
+    printf("\ntotal amount spent on this two days:%d",z);
+    return 0;
+}
+------------------------------------
+Output
+
+Enter the amount spent in wed,thru:55
+11
+
+total amount spent on this two days:66
