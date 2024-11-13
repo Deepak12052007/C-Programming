@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,x,y;
+    printf("\n Enter the passengers can hold in the bus:");
+    scanf("%d",&a);
+    printf("\n Enter the number of rows in the bus:");
+    scanf("%d",&x);
+    y=a/x;
+    printf("\n Seats in rows:%d",y);
+    return 0;
+}
+------------------------------------
+Output
+
+ Enter the passengers can hold in the bus:108
+
+ Enter the number of rows in the bus:55
+
+ Seats in rows:1
