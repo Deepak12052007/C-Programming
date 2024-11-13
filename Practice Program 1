@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("\nenter no of copies in edition 1:");-
+    scanf("%d",&a);
+    printf("\nenter no of copies in edition 2:");
+    scanf("%d",&b);
+    c=a+b;
+    printf("\ntotal no of copies:%d",c);
+    
+    return 0;
+    
+}    
+------------------------------------
+Output
+enter no of copies in edition 1:55
+
+enter no of copies in edition 2:66666
+
+total no of copies:66721
