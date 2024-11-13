@@ -11,3 +11,8 @@ int main()
     printf("Circumference of a circle:%d\n",c);
     return 0;
 }
+-----------------------------------------------------------------
+Output
+ Enter the radius of a circle:5.5
+Area of a circle:78
+Circumference of a circle:31
