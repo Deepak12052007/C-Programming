@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number:");
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("\nGiven number is even");
+    }
+    else
+    {
+        printf("\nGiven number is odd");
+    }
+    return 0;
+}
+------------------------------------
+Output 
+Enter the number:54
+Given number is even
+    
+
+
+
+
+
+
+
