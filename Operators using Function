@@ -1,0 +1,74 @@
+#include<stdio.h>
+int add()
+{
+    int a,b;
+    printf("\n Enter the number to be added:");
+    scanf("%d%d",&a,&b);
+    printf("\n Addition of two number:%d",(a+b));
+    return 0;
+}
+int sub()
+{
+    int a,b;
+    printf("\n Enter the number to be subracted:");
+    scanf("%d%d",&a,&b);
+    printf("\n Subraction of two number:%d",(a-b));
+    return 0;
+}
+int multi()
+{
+    int a,b;
+    printf("\n Enter the number to be multiplied:");
+    scanf("%d%d",&a,&b);
+    printf("\n Multiplication of number:%d",(a*b));
+    return 0;
+}
+int div()
+{
+    int a,b;
+    printf("\n Enter the number to be division:");
+    scanf("%d%d",&a,&b);
+    printf("\n Division of number:%d",(a/b));
+    return 0;
+}
+int main()
+{
+    char ch;
+    printf("1)Addition(+)\n 2)Subraction(-)\n 3)multiplication(*)\n 4)Division(/)");
+    printf("\nEnter the choice:");
+    scanf("%c",&ch);
+    switch(ch)
+    {
+        case'+':{
+            add();
+            break;
+        }
+        case'-':{
+            sub();
+            break;
+        }
+        case'*':{
+            multi();
+            break;
+        }
+        case'/':{
+            div();
+            break;
+        }
+        
+    }
+    return 0;
+}
+---------------------------------------------------------    
+Output :
+
+1)Addition(+)
+2)Subraction(-)
+3)multiplication(*)
+4)Division(/)
+
+Enter the choice:+
+
+Enter the number to be added:5 6
+
+Addition of two number:11
