@@ -15,6 +15,7 @@ int main()
 	return 0;
 }
 --------------------------------------------------------------
+output
 Sum of 10 and 11 = 21 
 
-=== Code Execution Successful ===
+
