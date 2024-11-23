@@ -12,6 +12,6 @@ int main()
 }
 ------------------------------------
 Output
- Enter the passengers can hold in the bus:112
- Enter the number of rows in the bus:8
- Seats in rows:14
+ Enter the passengers can hold in the bus:108
+ Enter the number of rows in the bus:21
+ Seats in rows:4
