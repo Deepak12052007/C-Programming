@@ -1,0 +1,35 @@
+#include<stdio.h>
+int leap(int y)
+{
+    if(y%400==0 && y%100==0){
+       return 1;
+    }
+    else if(y%400<100 && y%4==0){
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+    
+}
+int main()
+{
+    int y,result;
+    printf("Enter the year:");
+    scanf("%d",&y);
+    result=leap(y);
+    if(result==1)
+    {
+        printf("\n%d is a leap year",result);
+    }
+    else
+    {
+        printf("\n%d is not a leap year",result);
+    }
+    return 0;
+}
+---------------------------------------------
+Output
+Enter the year:1700
+0 is not a leap year
