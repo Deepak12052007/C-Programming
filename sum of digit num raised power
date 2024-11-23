@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+    int n,p,x,sum=0;
+    printf("Enter the number:\n");
+    scanf("%d",&n);
+    printf("Enter the power:\n");
+    scanf("%d",&p);
+     while(n!=0)
+     {
+         x=n%10;
+         sum=sum+pow(n,p);
+         n=n/10;
+     }
+     printf("sum=%d",sum);
+    return 0;
+}
+------------------------------------------------
+Output
+Enter the number:
+123
+Enter the power:
+2
+sum=15274
