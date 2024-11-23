@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int p,r,i,t,ci;
+    scanf("%d",&p);
+    printf("p:%d\n",p);
+    scanf("%d",&r);
+    printf("r:%d\n",r);
+    scanf("%d",&i);
+    printf("i=%d\n",i);
+    scanf("%d",&t);
+    printf("t:%d\n",t);
+    ci=r*1+r^t-p;
+    printf("ci=%d",ci);
+    return 0;
+}
