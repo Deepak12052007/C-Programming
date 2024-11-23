@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main ()
+{
+  int i,j,arr[3][3];
+  
+  printf("Enter the element:");
+    for (i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&arr[i][j]);
+           }
+       }
+    printf("\n");
+    for (i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            printf("%d\t",arr[i][j]);
+           }
+           printf("\n");
+       }
+    
+    return 0;  
+  }
+------------------------------------
+Output
+Enter the element:3 4 4 5 7 6 8 9 0
+
+3	4	4	
+5	7	6	
+8	9	0
