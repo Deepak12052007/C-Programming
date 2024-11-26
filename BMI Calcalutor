@@ -1,0 +1,19 @@
+ #include <stdio.h>
+  int main ()
+ {
+  float w, bmi,h;
+    printf ("Enter your weight:");
+    scanf ("%f",&w);
+    printf ("\nEnter your height:");
+    scanf("%f",&h);
+     bmi=w/(h*h);
+      printf ("\nBMI value is %f" ,bmi);
+    
+   return 0;
+ }
+------------------------------------------------------
+Output
+Enter your weight:72
+Enter your height:198
+BMI value is 0.001837
+
