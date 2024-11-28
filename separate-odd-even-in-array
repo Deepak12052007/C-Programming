@@ -7,7 +7,7 @@ void main()
     int arr[n],even[n],odd[n];
     int i,even_count=0,odd_count=0;
    
-    for(i=0,k=1;i<n,k<=n;i++,k++)
+    for(i=0,k=0;i<n,k<=n;i++,k++)
     {
         printf("\n Enter the %dth element:",k);
         scanf("%d",&arr[i]);
@@ -37,12 +37,12 @@ void main()
 ---------------------------------------------------------------------
 Output
 Enter the size of the array:6
- Enter the 1th element:8
- Enter the 2th element:9
- Enter the 3th element:4
- Enter the 4th element:5
- Enter the 5th element:2
- Enter the 6th element:1
+ Enter the 0th element:8
+ Enter the 1th element:9
+ Enter the 2th element:4
+ Enter the 3th element:5
+ Enter the 4th element:2
+ Enter the 5th element:1
  Even number: 8 4 2 
  Odd number:9 5 1
 ---------------------------------------------------------------------------
