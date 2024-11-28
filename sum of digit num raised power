@@ -10,7 +10,7 @@ int main ()
      while(n!=0)
      {
          x=n%10;
-         sum=sum+pow(n,p);
+         sum=sum+pow(x,p);
          n=n/10;
      }
      printf("sum=%d",sum);
@@ -22,4 +22,4 @@ Enter the number:
 123
 Enter the power:
 2
-sum=15274
+sum=14
