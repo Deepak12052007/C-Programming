@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    char l[100],u[100];
+    int i=0,j=0;
+    printf("Enter string in lowercase:");
+    scanf("%s",l);
+    while (l[i]!='\0')
+    {
+        u[j]=l[i]-32;
+        i++,j++;
+    }
+    printf("\n The given string :%s",l);
+    printf("\nThe converted string:%s",u);
+    return 0;
+}
+----------------------------------------------
+Output:
+Enter string in lowercase:deepak
+ The given string :deepak
+The converted string:DEEPAK
+---------------------------------------------
